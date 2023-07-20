@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/*=========
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+PAGE STYLES
+
+===========*/
+.container {
+  max-width: 100%;
+  width: 83.5rem;
+  height: 50rem;
+  display: flex;
+}
+.container .container1 {
+  background-color: rgb(227, 136, 38);
+  border-radius: 1.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.container .container1 button {
+  color: rgb(227, 136, 38);
+}
+.container .container1 button:hover {
+  background-color: rgb(227, 136, 38);
+  color: white;
+  border: 1px solid white;
+}
+.container .container2 {
+  background-color: rgb(0, 105, 112);
+}
+.container .container2 button {
+  color: rgb(0, 105, 112);
+}
+.container .container2 button:hover {
+  background-color: rgb(0, 105, 112);
+  color: white;
+  border: 1px solid white;
+}
+.container .container3 {
+  background-color: rgb(0, 66, 65);
+  border-radius: 1.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.container .container3 button {
+  color: rgb(0, 66, 65);
+}
+.container .container3 button:hover {
+  background-color: rgb(0, 66, 65);
+  color: white;
+  border: 1px solid white;
+}
+.container ul {
+  height: 100%;
+  margin: 4rem 4rem;
+}
+.container ul li h1 {
+  padding: 3rem 0rem 0.5rem 0rem;
+  letter-spacing: 0.3rem;
+}
+.container ul li p {
+  padding: 2.3rem 2rem 7rem 0rem;
+  line-height: 2.75rem;
+}
+.container ul li button {
+  margin-bottom: 1rem;
+  border: none;
+  background-color: white;
+  padding: 1.5rem 3.75rem;
+  border-radius: 50rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1144px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .container {
+    margin-top: 10vh;
+    width: 50rem;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .container .container1 {
+    border-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .container .container3 {
+    border-radius: 1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .container ul {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .container ul img {
+    margin-top: 2rem;
+  }
+  .container ul h1 {
+    font-size: 5rem;
+  }
+  .container ul p {
+    font-size: 2rem;
+    margin-right: 7rem;
+  }
+}/*# sourceMappingURL=style.css.map */
